@@ -12,4 +12,7 @@ public class DriverContext {
 	
 	driver.findelement(by.id("username"));
 	driver.findelement(By.id("password"));
+	driver.findelement(by.id("username"));
+	driver.findelement(By.id("password"));driver.findelement(by.id("username"));
+	driver.findelement(By.id("password"));
 }
