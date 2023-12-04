@@ -9,4 +9,7 @@ public class DriverContext {
     webdriver driver= new chromeDriver();
     driver.manage().window().maximize();
     driver.get(url);
+	
+	driver.findelement(by.id("username"));
+	driver.findelement(By.id("password"));
 }
